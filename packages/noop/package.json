@@ -1,0 +1,19 @@
+{
+  "name": "@packages/noop",
+  "version": "1.0.0",
+  "description": "provide noop function",
+  "index": "noop.js",
+  "main": "build/lib/noop.js",
+  "unpkg": "build/dist/noop.js",
+  "module": "build/es/noop.js",
+  "scripts": {
+    "build": "rollup -c",
+    "clear": "rimraf build"
+  },
+  "author": "ENvironmentSet <herryseo1@gmail.com> (https://github.com/ENvironmentSet)",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.0"
+  }
+}
