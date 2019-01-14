@@ -1,11 +1,16 @@
 {
-  "name": "objectel-jsx-example",
+  "name": "objectel-examples",
   "version": "0.0.0",
-  "description": "simple objectel project via jsx ",
-  "main": "app.jsx",
+  "description": "monorepo of objectel examples",
+  "private": true,
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
-    "build": "webpack",
-    "run": "webpack-dev-server"
+    "bootstrap": "lerna bootstrap",
+    "build:examples": "lerna run --scope @examples/* build --stream",
+    "build:packages": "lerna run --scope @packages/* build --stream",
+    "build": "lerna run build"
   },
   "repository": {
     "type": "git",
@@ -16,25 +21,5 @@
   "bugs": {
     "url": "https://github.com/ENvironmentSet/objectel-jsx-example/issues"
   },
-  "homepage": "https://github.com/ENvironmentSet/objectel-jsx-example#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-transform-react-jsx": "^7.2.0",
-    "@babel/preset-env": "^7.2.3",
-    "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^1.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
-  },
-  "dependencies": {
-    "callbag-flatten": "^1.2.0",
-    "callbag-for-each": "^1.1.0",
-    "callbag-interval": "^1.1.0",
-    "callbag-map": "^1.0.1",
-    "callbag-pipe": "^1.1.1",
-    "objectel": "^0.2.0"
-  }
+  "homepage": "https://github.com/ENvironmentSet/objectel-jsx-example#readme"
 }
