@@ -1,0 +1,22 @@
+{
+  "name": "@packages/callbag-flat-map",
+  "version": "1.0.0",
+  "description": "provide flatMap function",
+  "index": "flatMap.js",
+  "main": "build/lib/callbag-flat-map.js",
+  "unpkg": "build/dist/callbag-flat-map.js",
+  "module": "build/es/callbag-flat-map.js",
+  "scripts": {
+    "build": "rollup -c",
+    "clear": "rimraf build"
+  },
+  "author": "ENvironmentSet <herryseo1@gmail.com> (https://github.com/ENvironmentSet)",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.0"
+  },
+  "dependencies": {
+    "@packages/noop": "^1.0.0"
+  }
+}
