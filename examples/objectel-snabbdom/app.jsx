@@ -25,5 +25,4 @@ window.addEventListener('DOMContentLoaded', () => {
     map(() => activePopup('Enter number to add to counter')),
     Emit$,
   );
-  forEach(console.log)(vdom(Listen$));
 });
