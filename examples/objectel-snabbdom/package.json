@@ -1,0 +1,35 @@
+{
+  "name": "@examples/objectel-snabbdom",
+  "version": "0.0.0",
+  "description": "simple objectel project via snabbdom",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "run": "webpack-dev-server"
+  },
+  "author": "ENvironmentSet <herryseo1@gmail.com> (https://github.com/ENvironmentSet)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@packages/noop": "^1.0.0",
+    "@packages/objectel-events": "^1.0.0",
+    "@packages/snabbel": "^0.0.0",
+    "callbag-for-each": "^1.1.0",
+    "callbag-interval": "^1.1.0",
+    "callbag-map": "^1.0.1",
+    "callbag-pipe": "^1.1.1",
+    "objectel": "^0.3.1",
+    "snabbdom": "^0.7.3"
+  }
+}
