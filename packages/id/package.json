@@ -1,0 +1,19 @@
+{
+  "name": "@packages/id",
+  "version": "1.0.0",
+  "description": "provide identity function",
+  "index": "id.js",
+  "main": "build/lib/id.js",
+  "unpkg": "build/dist/id.js",
+  "module": "build/es/id.js",
+  "scripts": {
+    "build": "rollup -c",
+    "clear": "rimraf build"
+  },
+  "author": "ENvironmentSet <herryseo1@gmail.com> (https://github.com/ENvironmentSet)",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.0"
+  }
+}
