@@ -1,6 +1,5 @@
 import * as Ol from 'objectel';
 import { VDOM } from '@packages/snabbel';
-import forEach from 'callbag-for-each';
 import map from 'callbag-map';
 import pipe from 'callbag-pipe';
 import interval from 'callbag-interval';
@@ -25,4 +24,5 @@ window.addEventListener('DOMContentLoaded', () => {
     map(() => activePopup('Enter number to add to counter')),
     Emit$,
   );
+  Emit$(vdom(Listen$));
 });
