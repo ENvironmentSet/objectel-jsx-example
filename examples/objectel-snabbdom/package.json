@@ -25,7 +25,6 @@
     "@packages/noop": "^1.0.0",
     "@packages/objectel-events": "^1.0.0",
     "@packages/snabbel": "^0.0.0",
-    "callbag-for-each": "^1.1.0",
     "callbag-interval": "^1.1.0",
     "callbag-map": "^1.0.1",
     "callbag-pipe": "^1.1.1",
