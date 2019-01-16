@@ -36,6 +36,6 @@
     "callbag-interval": "^1.1.0",
     "callbag-map": "^1.0.1",
     "callbag-pipe": "^1.1.1",
-    "objectel": "^0.2.0"
+    "objectel": "^0.3.1"
   }
 }
